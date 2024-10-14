@@ -503,9 +503,9 @@ Tree(樹) base on root p.270
 	-分析(遞迴)
 		1.Tree is empty -> set Root          ___________________               
 		2.insert treenode on leaf           |    | int Key |    |     
-									   Node | TN |---------| TN |
-										    | 	 | T data  |    |
-										    ---------------------
+					       Node | TN |---------| TN |
+						    |    | T data  |    |
+						    ---------------------
 	-新增節點(遞迴)
 		-如果搜尋到NULL樹或是NULL子樹，只要以節點的位置取代NULL樹即可
 		-如果不是NULL樹，則要確定繼續追蹤哪個分支，並遞迴呼叫以確定是否達到葉節點
